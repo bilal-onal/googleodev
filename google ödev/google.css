@@ -1,0 +1,111 @@
+.button1 button a {
+    text-decoration: none;
+
+   
+}
+.button2 button a {
+    text-decoration: none;  
+    
+}
+
+.foto {
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.ortaksm {
+    background-color: rgb(220, 218, 218);
+    
+}
+
+.search {
+    text-align: center;
+
+
+}
+
+.button1 {
+    text-align: center;
+    
+   
+  
+}
+
+.button2 {
+    text-align: center;
+   
+
+}
+
+.input {
+    width: 300px;
+   
+}
+
+.prgrf{
+    text-align: center;
+   
+ }
+.naber{
+   
+    display: inline-block ;
+    vertical-align: middle;
+    text-align: center;
+    width: 450px;
+    height: 100px;
+    background-color: aqua
+
+    
+}
+
+.orta {
+   
+    text-align: center;
+    width: 450px;
+    height: 100px;
+    background-color: rgb(28, 152, 152) ;
+    
+}
+
+.sağ {
+   
+    text-align: center;
+    width: 450px;
+    height: 100px;
+    background-color: rgb(11, 93, 93) ;
+    
+} 
+
+
+
+p {
+    margin: 0; /* Paragraf boşluğunu sıfırla */
+}
+
+input[type="text"],
+button {
+    margin-top: 5px; /* Input ve buton arasındaki boşluk */
+}
+
+a {
+    display: block; /* Bağlantıları blok element yap */
+    margin-bottom: 5px; /* Bağlantılar arasındaki boşluk */
+}i
+
+.naber, .orta, .sağ {
+    display: inline-block; /* Yan yana getir */
+    width: calc(33.33% - 10px); /* Yüzde tabanlı genişlik */
+    margin: 0 5px; /* Kenar boşlukları */
+    vertical-align: top; /* Üst hizalama */
+    
+    padding: 10px; /* İçerik boşluğu */
+    box-sizing: border-box;/* Kutu modelini sıfır dış boşluk olarak ayarla */
+}
+
+.p1 {
+
+        margin: 0 auto; /* Sol ve sağ kenarlara otomatik margin ile ortalamayı sağlar */
+        text-align: center; /* İçeriği yatay olarak ortalar */
+        width: fit-content; /* İçeriğe uygun genişlik */
+
+    
+}
